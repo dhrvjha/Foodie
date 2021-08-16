@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange_dark"
+    tools:context=".activity.LoginActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardViewLoginAppIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        app:cardCornerRadius="8dp">
+
+        <ImageView
+            android:id="@+id/imgLoginAppIcon"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_launcher_background" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/CardViewLoginMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardViewLoginAppIcon"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="7dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        app:cardCornerRadius="8dp">
+
+        <EditText
+            android:id="@+id/edtxtLoginMobileNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/hintMobileNumber"
+            android:inputType="number"
+            android:padding="10dp" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardViewLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CardViewLoginMobileNumber"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="30dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        app:cardCornerRadius="7dp">
+
+        <EditText
+            android:id="@+id/edtxtLoginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:inputType="textPassword"
+            android:hint="@string/hintPassword"
+            android:padding="10dp" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/CardViewLoginSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardViewLoginPassword"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="7dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardCornerRadius="8dp">
+
+        <Button
+            android:id="@+id/btnLoginSignInButton"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/txtLoginForgotPasswordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CardViewLoginSignIn"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="7dp"
+        android:text="@string/forgotPassword" />
+
+    <TextView
+        android:id="@+id/txtLoginSignUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="@string/signUp" />
+
+</RelativeLayout>

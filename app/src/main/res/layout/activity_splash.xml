@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange_dark"
+    tools:context=".activity.SplashActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardViewSplashAppIcon"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="200dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+<!--    text size is dp because splash screen should have fixed
+        layout in all screens independent of settings       -->
+    <TextView
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/cardViewSplashAppIcon"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

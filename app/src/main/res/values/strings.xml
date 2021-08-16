@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Foodie</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hintMobileNumber">Mobile Number (10 digits)</string>
+    <string name="hintPassword">Password</string>
+    <string name="login">Login</string>
+    <string name="sharedLoginFile">credentials</string>
+    <string name="forgotPassword"><u>Forgot Password</u></string>
+    <string name="signUp"><u>Don\'t have an account? Sign up now</u></string>
+    <string name="error">Error</string>
+    <string name="internetNotFound">Internet not found</string>
+    <string name="openSettings">Open settings</string>
+    <string name="exit">Exit</string>
+    <string name="wrongCredentials">Wrong credentials</string>
+    <string name="somethingWentWrong">Something went wrong</string>
+    <string name="hintEmailAddress">Email Address</string>
+    <string name="hintName">Name (Min. 3 charcters)</string>
+    <string name="hintDeliveryAddress">Delivery Address</string>
+    <string name="register">Register</string>
+    <string name="passwordsDontMatch">Passwords don\'t match</string>
+    <string name="next">Next</string>
+    <string name="hintOTP">OTP (4 characters)</string>
+    <string name="hintConfirmPassword">Confirm Password</string>
+    <string name="submit">Submit</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="favouriteRestaurants">Favourite Restaurants</string>
+    <string name="orderHistory">Order History</string>
+    <string name="faqs">FAQs</string>
+    <string name="logout">Log out</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="areYouSureYouWantToLogOut">Are you sure you want to Log out?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="foodie_description">Foodie Icon</string>
+    <string name="profileIcon">Profile Icon</string>
+    <string name="allRestaurant">All Restaurant</string>
+    <string name="placeOrder">Place Order</string>
+    <string name="details">Details</string>
+</resources>
